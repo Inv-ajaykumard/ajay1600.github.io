@@ -1,0 +1,352 @@
+.bg1{
+    background-color: black;
+  }
+  .img-box2 {
+    height: 60px;
+    width: 120px;
+    padding: auto;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 3px;
+    margin: 0%;
+  }
+  .img-box2:hover {
+    border: solid 2px rgb(139, 139, 139);
+  }
+  .img-box3 {
+    height: 60px;
+    width: 120px;
+    padding: auto;
+  
+    margin: 0%;
+  }
+  
+  .Allbtn{
+    height: 40px;
+  }
+  .searchInput{
+    width: 100vh;
+   
+  
+  }
+  .widths{
+    width: 50vw;
+  }
+  .container{
+    width:1920px
+  }
+  .iFont00 {
+  
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    align-items: center;
+    font-size: 12px;
+  }
+  .iFont4 {
+  
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  /* /////nav */
+  
+  
+  bg-nav{
+    background-color: grey;
+   
+  }
+  .Font11{
+    color: white;
+    font-style: normal;
+  }
+  .bgAll{
+    background-color: rgb(168, 168, 168);
+    margin: 0;
+    border-radius: 4px;
+    border-color: grey;
+  
+  }
+  
+  .iFont{
+    
+    font-style: normal;
+  }
+  /* /nav2 */
+  
+
+
+.fontw{
+    color: white;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+  
+  }
+  
+  .container1 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 166, 0),rgba(255, 123, 0, 0.733), rgb(255, 31, 255))
+    
+    
+  }
+  
+  .container2 {
+    background-image: linear-gradient(rgba(248, 248, 248, 0),rgba(248, 240, 240, 0.733), rgb(204, 177, 204)), url(https://m.media-amazon.com/images/I/81suzUwAL0L._SX3000_.jpg);
+    object-fit:cover;
+    background-repeat: no-repeat;
+   background-size: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 920px;
+    
+   
+  
+  
+  }
+  .container3{
+  margin-top: 20%;
+  margin-left: 5%;
+  margin-right: 10%;
+    width: 90%;
+    height: 60%;
+    position: absolute;
+  }
+  .contailer31{
+     
+   margin: 5%;
+    width: 98%;
+    height: 90%;
+   padding: 8%;
+   border-radius: 0%;
+   align-self: center;
+    background-color: rgb(255, 255, 255);
+      object-fit:cover;
+      
+    
+  }
+  .container34{
+     
+    margin: 5%;
+     width: 98%;
+     height: 90%;
+  
+    border-radius: 0%;
+    align-self: center;
+  
+       object-fit:cover;
+       
+     
+   }
+  .container32{
+    width: 100%;
+    height: 20vh;
+    padding: 13%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom:40px ;
+  }
+  .container33{
+    width: 80%;
+    height: 83%;
+    margin: 10%;
+  
+    background-color: rgb(236, 217, 40);
+  
+  }
+  
+  .ScrollStyle {
+  
+    min-height:150px;
+    overflow-y: scroll;
+    max-height: 950px;
+    
+  } 
+  .main{
+    background-image: linear-gradient(rgba(248, 240, 240, 0),rgba(197, 135, 199, 0.733), rgb(250, 249, 250));
+   
+  }
+  .boldFont{
+    font-weight: bold;
+   
+    color: black;
+    font-size: larger;
+    font-style: normal;
+  }
+  
+  .font0{
+    font-size: 80%;
+    color: black;
+    font-style: normal;
+  
+  }
+  .Font1{
+    color: rgb(95, 129, 223);
+  }
+  
+  
+  
+  
+  
+  .container5{
+    min-height:150px;
+    overflow-x: scroll;
+    padding: 3%;
+    width: 100%;
+    height: 400px;
+    background: rgb(255, 255, 255);
+  }
+  
+  
+  
+  .container6{
+    min-height:150px;
+    padding: 0%;
+
+    height: fit-content;
+    
+  }
+  .container7{
+  padding: 10%;
+    padding: 0%;
+   width:60%;
+   margin-left:15%;
+   margin-right: 15%;
+    height: fit-content;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* * {
+      padding: 0%;
+      margin: 0%;
+  }
+  
+  .main {
+      padding: 0%;
+      width: 1920px;
+      min-height: 870px;
+      background-image: linear-gradient(rgba(174, 180, 214, 0.9),rgba(31, 39, 85, 0.9)),url("src/assets/images/homescreen.jpeg");
+      background-size: cover;
+  }
+  
+  .container {
+    margin: 5px;
+    background-color: black;
+    width: 350px;
+    height: fit-content;
+    border-radius: 15px;
+  
+   
+  
+  }
+  
+  
+  
+  .ScrollStyle {
+      background-image:  linear-gradient(rgba(97, 73, 73, 0.9),rgba(173, 57, 49, 0.199)),url("src/assets/images/offer-banner.png");
+      background-size: 1000px;
+     background-repeat:repeat-x;
+      
+      border-radius: 8px;
+      margin: 15px;
+      max-height:500px;
+      overflow-y: scroll;
+      box-sizing: border-box;
+  }
+  .cardcol{
+      margin: 25px;
+    
+      max-height:600px;
+      background-image: linear-gradient(rgba(207, 168, 168, 0.575),rgba(102, 23, 17, 0.507));
+    border-radius: 15px;
+      width: 500px;
+      color: aliceblue;
+      font-weight: 500;
+      max-height:fit-content;
+  }
+  .blink {
+      animation: blink 1s steps(1, end) infinite;
+    }
+  
+  @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  .img{
+    image-resolution: from-image 300dpi;
+  
+    width: 350px;
+  
+    
+  } */
